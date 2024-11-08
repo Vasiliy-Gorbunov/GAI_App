@@ -3,7 +3,7 @@ services:
 
   owners:
     build:
-      context: ./GAI_Owners
+      context: ./services/Owners
     ports:
       - "${SERVER_PORT_OWNERS}:${SERVER_PORT_OWNERS}"
     networks:
@@ -24,7 +24,7 @@ services:
 
   cars:
     build:
-      context: ./GAI_Cars
+      context: ./services/Cars
     ports:
       - "${SERVER_PORT_CARS}:${SERVER_PORT_CARS}"
     networks:
@@ -45,7 +45,7 @@ services:
 
   docs:
     build:
-      context: ./GAI_Docs
+      context: ./services/Docs
     ports:
       - "${SERVER_PORT_DOCS}:${SERVER_PORT_DOCS}"
     networks:
@@ -69,7 +69,7 @@ services:
 
   notifications:
     build:
-      context: ./GAI_Notifications
+      context: ./services/Notifications
     ports:
       - "${SERVER_PORT_NOTIFICATIONS}:${SERVER_PORT_NOTIFICATIONS}"
     networks:
