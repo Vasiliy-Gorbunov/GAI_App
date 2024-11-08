@@ -1,0 +1,4 @@
+CREATE DATABASE owners_db;
+CREATE DATABASE cars_db;
+CREATE DATABASE docs_db;
+CREATE DATABASE notifications_db;

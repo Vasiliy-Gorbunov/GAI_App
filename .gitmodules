@@ -1,0 +1,12 @@
+[submodule "services/Owners"]
+	path = services/Owners
+	url = https://github.com/Vasiliy-Gorbunov/GAI_Owners.git
+[submodule "services/Cars"]
+	path = services/Cars
+	url = https://github.com/Vasiliy-Gorbunov/GAI_Cars.git
+[submodule "services/Docs"]
+	path = services/Docs
+	url = https://github.com/Vasiliy-Gorbunov/GAI_Docs.git
+[submodule "services/Notifications"]
+	path = services/Notifications
+	url = https://github.com/Vasiliy-Gorbunov/GAI_Notifications.git
