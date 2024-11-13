@@ -1,6 +1,4 @@
 # GAI_App
-Master GAI project
-
 Основной проект приложения ГАИ.
 Включает в себя 4 отдельных приложения (микросервиса) - Owners, Cars, Docs, Notifications.
 Также поднимаются: БД Postgresql, Kafka (+Zookeeper), KafkaUI.
